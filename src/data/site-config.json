@@ -1,0 +1,31 @@
+{
+  "siteName": "miniOrange Knowledge Base",
+  "productName": "miniOrange",
+  "tagline": "Find answers, setup help & troubleshooting",
+  "description": "Search FAQs, configuration guides and fixes for common issues across miniOrange products.",
+  "sourceOrigin": "https://faq.miniorange.in",
+  "copyright": "miniOrange Security Software Pvt Ltd. All Rights Reserved.",
+  "homeUrl": "https://www.miniorange.com/",
+  "contact": {
+    "email": "info@xecurify.com",
+    "contactPageUrl": "https://www.miniorange.in/contact",
+    "forumUrl": "https://forum.miniorange.com/",
+    "documentationUrl": "https://developers.miniorange.com/docs",
+    "phones": [
+      { "label": "US", "number": "+1 978 658 9387" },
+      { "label": "India", "number": "+91 97178 45846" }
+    ]
+  },
+  "support": {
+    "endpoint": null,
+    "requestTypes": [
+      { "value": "Schedule a Demo", "label": "I want to schedule a Demo" },
+      { "value": "Product Questions", "label": "I need Technical Support" },
+      { "value": "Sales Enquiry", "label": "I have a Sales Enquiry" },
+      { "value": "Custom Requirement", "label": "I have custom requirement" },
+      { "value": "Others", "label": "My reason is not listed here" }
+    ]
+  },
+  "feedback": { "endpoint": null },
+  "listing": { "pageSize": 20 }
+}

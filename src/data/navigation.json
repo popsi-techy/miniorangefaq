@@ -1,0 +1,162 @@
+{
+  "header": [
+    {
+      "label": "Products",
+      "links": []
+    },
+    {
+      "label": "Resources",
+      "links": []
+    }
+  ],
+  "footer": [
+    {
+      "label": "Products",
+      "links": [
+        {
+          "label": "Identity & Access Management",
+          "href": "https://www.miniorange.in/iam/"
+        },
+        {
+          "label": "Customer Identity & Access Management",
+          "href": "https://www.miniorange.in/iam/customer-identity-access-management-ciam"
+        },
+        {
+          "label": "Privileged Access Management",
+          "href": "https://www.miniorange.in/products/privileged-access-management-pam"
+        },
+        {
+          "label": "Cloud Access Security Broker",
+          "href": "https://www.miniorange.in/casb/"
+        },
+        {
+          "label": "Mobile Device Management (MDM)",
+          "href": "https://www.miniorange.in/uem/mobile-device-management/"
+        },
+        {
+          "label": "Access Gateway",
+          "href": "https://www.miniorange.in/products/access-gateway"
+        }
+      ]
+    },
+    {
+      "label": "Plugins",
+      "links": [
+        {
+          "label": "WordPress",
+          "href": "https://plugins.miniorange.in/wordpress"
+        },
+        {
+          "label": "Atlassian",
+          "href": "https://www.miniorange.in/atlassian"
+        },
+        {
+          "label": "Shopify",
+          "href": "https://plugins.miniorange.in/shopify"
+        },
+        {
+          "label": "Drupal",
+          "href": "https://plugins.miniorange.in/drupal"
+        },
+        {
+          "label": "Joomla",
+          "href": "https://plugins.miniorange.in/joomla"
+        },
+        {
+          "label": "Magento",
+          "href": "https://plugins.miniorange.in/magento"
+        },
+        {
+          "label": "Moodle",
+          "href": "https://plugins.miniorange.in/moodle"
+        }
+      ]
+    },
+    {
+      "label": "Why miniOrange",
+      "links": [
+        {
+          "label": "Success Stories",
+          "href": "https://www.miniorange.in/iam/customers/"
+        },
+        {
+          "label": "Blogs",
+          "href": "https://www.miniorange.in/blog/"
+        },
+        {
+          "label": "Content Library",
+          "href": "https://www.miniorange.in/iam/content-library/"
+        },
+        {
+          "label": "Video Library",
+          "href": "https://www.youtube.com/channel/UCxQuL2JNo8HA4baZSIjcgRg"
+        },
+        {
+          "label": "FAQs",
+          "href": "/"
+        },
+        {
+          "label": "Forum",
+          "href": "https://forum.miniorange.in/"
+        }
+      ]
+    },
+    {
+      "label": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "https://www.miniorange.in/about-us"
+        },
+        {
+          "label": "News",
+          "href": "https://www.miniorange.in/newsandevents"
+        },
+        {
+          "label": "Partners",
+          "href": "https://plugins.miniorange.in/wordpress-partners-program"
+        },
+        {
+          "label": "Customers",
+          "href": "https://www.miniorange.in/customers"
+        },
+        {
+          "label": "Contact Us",
+          "href": "https://www.miniorange.in/contact"
+        }
+      ]
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.miniorange.in/terms-and-policies/privacy-policy"
+    },
+    {
+      "label": "Terms of Service",
+      "href": "https://www.miniorange.in/terms-and-policies/terms-of-service"
+    }
+  ],
+  "social": [
+    {
+      "label": "miniOrange on LinkedIn",
+      "href": "https://www.linkedin.com/company/miniorange",
+      "icon": "linkedin"
+    },
+    {
+      "label": "miniOrange on YouTube",
+      "href": "https://www.youtube.com/channel/UCxQuL2JNo8HA4baZSIjcgRg",
+      "icon": "youtube"
+    },
+    {
+      "label": "miniOrange on X (Twitter)",
+      "href": "https://twitter.com/miniOrange_Inc",
+      "icon": "x"
+    },
+    {
+      "label": "miniOrange on Facebook",
+      "href": "https://www.facebook.com/miniorangeinc/",
+      "icon": "facebook"
+    }
+  ]
+}

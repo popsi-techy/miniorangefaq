@@ -1,0 +1,4 @@
+{
+  "idp": { "shortName": "IAM" },
+  "saml-single-sign-on": { "shortName": "WordPress" }
+}

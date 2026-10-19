@@ -1,0 +1,1493 @@
+{
+  "generatedAt": "2026-10-13T15:37:44.995Z",
+  "warnings": [
+    {
+      "slug": "license-activation-steps-for-miniorange-asp-net-saml-sso-plugins",
+      "warning": "empty body"
+    },
+    {
+      "slug": "license-activation-steps-for-miniorange-umbraco-saml-sso-plugins",
+      "warning": "empty body"
+    },
+    {
+      "slug": "connect-specific-sharepoint-sites-to-wordpress",
+      "warning": "empty body"
+    },
+    {
+      "slug": "how-to-get-the-loopring-api-key",
+      "warning": "empty body"
+    },
+    {
+      "slug": "license-activation-steps-for-miniorange-asp-net-saml-sso-plugins",
+      "warning": "no title, skipped"
+    },
+    {
+      "slug": "license-activation-steps-for-miniorange-umbraco-saml-sso-plugins",
+      "warning": "no title, skipped"
+    },
+    {
+      "slug": "connect-specific-sharepoint-sites-to-wordpress",
+      "warning": "no title, skipped"
+    },
+    {
+      "slug": "how-to-get-the-loopring-api-key",
+      "warning": "no title, skipped"
+    },
+    {
+      "slug": "how-will-admins-create-users-in-miniorange",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "how-to-upgrade-on-premise-to-the-latest-version",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "adding-additional-admins",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "authentication-to-remote-gmail-smtp-failed",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "increase-session-timeout-period",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "how-to-restrict-apps-to-a-particular-set-of-users",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "how-to-enable-2fa-mfa-for-a-particular-app",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "how-will-admins-reset-user-passwords-in-miniorange",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "how-to-bulk-upload-multiple-users-in-miniorange",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "how-to-add-an-oauth-oidc-app",
+      "warning": "related not imported: configure-content-security-policy-csp-miniorange, push-notification-troubleshooting, how-to-use-and-troubleshoot-authenticator-app, how-to-download-accountinfo-txt-file, set-up-custom-roles-and-capabilities-miniorange-idp"
+    },
+    {
+      "slug": "configuring-redirect-uris-and-branding-in-xecurify-iam-admin-dashboard",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "invalid-password-while-login-at-client-vpn",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "lcf-failed-error-at-webpage",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "why-snapshot-isolation-is-required-for-mssql",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "internal-server-error-on-change-password-page",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "how-to-run-on-premise-identity-server-on-another-port",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "otp-code-rejected-even-if-correct",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "how-to-save-a-new-credit-card-in-miniorange",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "how-to-upgrade-miniorange-ldap-gateway",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "selected-2fa-is-not-prompted-when-user-trying-to-login",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "unlock-valid-user-user-locked-number-invalid-login-attempts",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "possible-skip-2fa-specific-ips",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "how-to-change-the-time-limit-for-which-the-otp-setting-stays-validated",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin, how-to-enable-password-less-login"
+    },
+    {
+      "slug": "limit-number-invalid-2fa-attempts",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "authenticator-mobile-apps-supported-2fa-plugin",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "enable-2fa-jira-service-deskjsd",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "phone-lost-not-accessible-now",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "can-activateenable-2fa-users",
+      "warning": "related not imported: how-to-apply-miniorange-license-in-the-crowd-2fa-plugin, how-is-license-tier-calculated-for-the-jira-2fa-plugin"
+    },
+    {
+      "slug": "logout-endpoint-keycloak",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "getting-app-not-assigned-error-during-test-configuration-okta",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication"
+    },
+    {
+      "slug": "could-not-sign-you-in-please-contact-administrator-login-issue",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "logout-endpoint-url-different-custom-logout-templateurl-configure",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "test-configuration-works-sso-failed",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "an-error-occurred-user-groups-tab",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "login-existing-users-without-creating-new-users",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "get-jira-oauth-client-plugin-logs",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "issue-for-session-time-out",
+      "warning": "related not imported: configure-and-setup-pkce-for-keycloak, fix-mo-oauth-error-00007-microsoft-azure-ad, configure-custom-okta-authorization-server-userinfo-endpoint, configuring-jwks-endpoint-oidc-authentication, jira-oauth-group-mapping-options-miniorange, deactivated-users-reactivated-sso-fix"
+    },
+    {
+      "slug": "can-generate-certificate-saml-app",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "update-saml-certificate-miniorange-plugin",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "can-update-default-x-509-certificate-miniorange-plugin",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "dont-want-single-sign-used-allowing-admin-access-can-disable",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "enable-emergency-login-for-saml-atlassian-apps",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "using-multiple-idpssamls-users-choose-idpokta-azure-ad",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "user-created-random-values-azure-ad-contains-email-address-response",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "i-am-getting-org-apache-xml-security-encryption-xmlencryptionexception-illegal-key-size-exception-sso",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "new-accounts-created-users-even-though-already-registered-existing-email-address-make-login-existing-account-email-address",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "enable-login-for-atlassian-application-using-apis",
+      "warning": "related not imported: saml-slo-configure-azure-ad-b2c, atlassian-saml-sso-certificate-renewal, how-can-i-download-the-paid-version-of-the-wordpress-saml-sso-plugin"
+    },
+    {
+      "slug": "how-to-configure-single-logout-slo-in-azure-ad-with-wp-saml-sso-plugin",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso, okta-sso-timeout-clock-skew-error"
+    },
+    {
+      "slug": "googleapps-saml-sso-403-app-is-not-configured-for-the-user",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "how-to-configure-saml-single-logout-in-azure-ad-b2c",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso, okta-sso-timeout-clock-skew-error"
+    },
+    {
+      "slug": "application-with-identifier-not-found-azuread",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso"
+    },
+    {
+      "slug": "how-to-generate-adfs-logs-for-single-sign-on",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "how-to-assign-wordpress-roles-to-users-according-to-the-groups-in-azure-ad",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso, okta-sso-timeout-clock-skew-error"
+    },
+    {
+      "slug": "plugin-not-found-in-directory",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso, okta-sso-timeout-clock-skew-error"
+    },
+    {
+      "slug": "getting-error-while-configuring-wordpress-saml-sso-with-salesforce-as-idp",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "followed-guide-given-plugin-get-error-azure-ad-application-identifier-abc-comwp-contentpluginsminiorange-saml-20-single-sign-no",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso, okta-sso-timeout-clock-skew-error"
+    },
+    {
+      "slug": "how-to-sync-manager-field-from-azuread-to-wordpress-using-scim",
+      "warning": "related not imported: how-to-set-up-okta-idp-initiated-sso-saml-plugin, keycloak-sso-certificate-signature-validation-error, fix-keycloak-sso-role-mapping-wordpress, saml-assertion-missing-attributes-wordpress-sso, keycloak-login-not-redirecting-wordpress-sso, okta-sso-timeout-clock-skew-error"
+    },
+    {
+      "slug": "install-premium-plugin-free-plugin",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "how-do-i-tell-if-my-wordpress-set-up-is-a-single-site-or-a-multisite",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "download-premium-plugin-already-purchased",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "upgrade-free-plugin-premium-version",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "how-to-fix-request-blocked-error-in-wordpress-scim",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "check-saml-response-using-saml-tracer-logs",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "steps-to-activate-plugin",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "like-separate-url-sso-login-available-plugin",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "fatal-error-uncaught-error",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "protect-images-files-in-wordpress",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, login-wp-saml-sso-plugin-after-license-transfer-new-email, unable-to-login-wordpress-sso-behind-firewall, update-notice-for-free-plugin, rss-feed-still-visible-after-enabling-auto-redirection"
+    },
+    {
+      "slug": "how-can-i-renew-my-wordpress-plugin-license",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "getting-invalid-license-key-error",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do"
+    },
+    {
+      "slug": "free-license-key",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do"
+    },
+    {
+      "slug": "enter-license-key-wordpress-saml-sso-premium-plugin",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do"
+    },
+    {
+      "slug": "how-to-get-the-latest-version-of-the-plugin",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "how-to-check-license-key-is-linked-to-my-domain",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do"
+    },
+    {
+      "slug": "invalid-license-found-reference-id-mo24281021705",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do"
+    },
+    {
+      "slug": "i-have-renewed-my-license-but-i-can-see-in-the-plugin-it-says-it-has-expired",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do"
+    },
+    {
+      "slug": "how-to-migrate-new-license-key-from-preproduction-to-production",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do, how-to-combine-license-expiry-of-my-different-licenses"
+    },
+    {
+      "slug": "how-do-i-reactivate-the-license-on-the-new-site",
+      "warning": "related not imported: multilingual-sso-license-requirements-for-wordpress, im-getting-wpsamlerr000-we-could-not-sign-you-in-what-should-i-do, how-to-combine-license-expiry-of-my-different-licenses"
+    },
+    {
+      "slug": "error-during-sso-test-configuration",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "sign-in-error-during-login",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "wpsamlerr004-certificate-mismatch",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "test-configuration-redirect-loop-issue",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "sso-not-working-not-able-log-wordpress-site-authenticating-idp",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "wpsamlerr006-invalid-status-code",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "unable-to-login-after-test-configuration",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "single-sign-on-was-working-perfectly-sudden-just-stopped-working",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "wpsamlerr009-wrong-audience-url",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "redirect-to-login-page-after-configuration",
+      "warning": "related not imported: wpsaml-err039-subsite-limit-exceeded, wpsaml-err038-test-configuration-not-allowed, wpsaml-err037-username-email-missing, wpsaml-err036-no-identity-provider-configured, wpsaml-err035-password-reset-url-not-configured, wpsaml-err034-no-default-identity-provider-selected"
+    },
+    {
+      "slug": "redirect-loop-when-trying-to-access-my-website",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "what-is-force-authentication-in-saml",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "why-does-wordpress-log-users-back-in-after-logout",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "supported-wpml-url-structures-for-sso",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "scim-provisioning-required-user-attributes",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "wpml-compatible-sso-for-new-languages",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "wpml-compatible-sso-for-saml-and-oauth",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "how-to-renew-or-upgrade-sp-certificate-in-saml-sso-plugin",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "how-to-update-saml-sso-certificate-on-my-adfs-server",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "find-certificate",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "renew-upgrade-sp-certificate-saml-sso-standard-plugin",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "how-do-i-update-my-certificate-on-azure-ad",
+      "warning": "related not imported: add-button-custom-memberpress-login-page, multilingual-sso-license-requirements-for-wordpress"
+    },
+    {
+      "slug": "how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-keycloak-as-idp",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "how-to-upgrade-sp-certificate-in-wordpress-saml-multiple-idp-sso-plugin",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "how-to-upgrade-sp-certificate-in-wordpress-saml-multisite-sso-sp-plugin",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "plugin-encrypting-andor-signing-certificates",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-shibboleth-as-idp",
+      "warning": "related not imported: microsoft-entra-id-saml-certificate-expiry-renewal, invalid-certificate-caused-by-unsupported-length, how-to-renew-upgrade-sp-certificate-in-the-saml-sso-plugin-with-pingone-as-idp"
+    },
+    {
+      "slug": "getting-invalid-or-missing-recaptcha-token-error-while-sso",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "when-i-am-trying-to-perform-sso-i-am-getting-invalid-attributes-received",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "getting-redirected-to-the-password-page-when-tried-to-do-sso",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "i-have-followed-steps-to-set-idp-but-where-can-i-check-sso",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-can-i-map-different-attributes-of-my-idp",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "where-can-i-find-the-multipass-token-in-shopify",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "after-performing-sso-i-want-my-customers-to-redirect-to-collections-or-discount-offer-page",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "when-i-try-to-perform-sso-i-get-the-error-message-shopify-plan-expired",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "redirect-users-to-different-pages-after-sso",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-disable-google-recaptcha-for-login-and-account-actions",
+      "warning": "related not imported: configure-shopify-single-logout-for-saml-idp, how-to-allow-checkout-only-for-sso-authenticated-users, automatically-provision-customers-to-shopify-b2b, connect-employee-login-to-shopify-b2b-storefront, connect-shopify-plus-store-to-community-forum, single-login-for-multiple-shopify-plus-stores"
+    },
+    {
+      "slug": "i-am-not-able-to-receive-the-otp-on-my-phone-number-for-otp-login-on-my-shopify-store",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "is-there-any-limit-on-the-otps-for-spam-protection",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "invalid-mobile-number-error-in-otp-login-app",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "failed-to-load-page-error-or-unsupported-url",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-do-i-set-my-own-sms-or-email-otp-message-template-for-shopify-store",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "when-i-am-trying-to-perform-otp-login-it-gives-me-an-alert-saying-error-error",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "after-performing-otp-login-i-want-my-customers-to-redirect-to-collections-or-discount-offer-page",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "i-have-installed-the-application-but-i-cant-see-the-otp-login-widget-on-my-login-page",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "on-clicking-login-with-otp-widget-nothing-happens-i-am-not-able-to-see-the-popup",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "i-have-installed-the-application-but-i-cant-see-the-otp-login-widget-on-my-signup-login-popup",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "where-do-i-find-my-collaborator-request-code-on-shopify",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-enable-or-disable-the-recaptcha-in-shopify",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-find-and-accept-collaborator-request-on-shopify",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-whitelist-server-ip-addresses-in-cloudflare",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "miniorange-apps-compatibility-with-shopify-horizon-theme",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "resolve-the-setup-your-custom-app-error-shopify-social-login",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "manage-developer-access-to-shopify-dev-mcp",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-pay-for-shopify-customizations-support",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-schedule-the-lock",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "moodle-shopify-integration-create-subscription-modle-for-courses",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-remove-all-the-code-from-my-theme",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-block-a-country-and-whitelist-a-few",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "when-performing-sso-getting-please-verify-if-shopify-app-is-installed",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "blocked-a-country-still-getting-visitors-from-that-country",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-can-i-test-if-my-configurations-are-working-correctly",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "application-has-stopped-working-after-changing-theme",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "block-all-the-countries-except-the-us",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "upgrade-to-a-different-plan-in-the-firewall-ip-restrict-application",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "restricting-a-country-also-blocks-google-ads-destination-mismatch-error",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "block-a-country-but-want-certain-ip-people-to-access-my-store",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-hide-the-add-to-cart-button-on-product-pages-in-shopify",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "show-hide-shopify-products-by-country-region",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-allow-restrict-access-to-shopify-store-from-multiple-locations",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "create-members-only-shopify-store",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-allow-or-restrict-access-to-shopify-store-based-on-state-region",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-apply-lock-on-checkout-in-shopify",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-can-i-make-products-or-collections-visible-only-to-vip-users",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-redirect-shopify-new-customer-accounts-to-specific-page",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-remove-the-application-code-from-my-live-theme",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-lock-a-shopify-store-based-on-a-users-email-subscription-status",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-assign-discord-roles-based-on-shopify-product-purchase",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-display-the-discord-login-button-on-my-shopify-store",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "why-cant-i-see-my-discord-username-on-the-customer-profile-page",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-sync-shopify-inventory-with-sanmar-and-alphabroder",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "import-products-from-sanmar-alphabroder-sns-activewear",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-synchronize-the-inventory-between-two-locations",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-integrate-otp-on-checkout-to-avoid-spam-orders",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "configure-taqnyat-gateway-using-sms-app",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "what-are-shopify-legacy-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-connect-identity-provider-to-shopify-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "what-are-shopify-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-configure-sso-for-shopify-plus-on-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "enable-sso-with-shopify-email-otp-login-for-b2b-employees",
+      "warning": "related not imported: shopify-b2b-custom-registration-form-company-details, how-to-centralize-company-data-in-shopify-b2b, shopify-b2b-dtc-different-login-flows"
+    },
+    {
+      "slug": "shopify-email-password-login-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "restrict-non-b2b-users-from-accessing-b2b-exclusive-content",
+      "warning": "related not imported: shopify-b2b-custom-registration-form-company-details, how-to-centralize-company-data-in-shopify-b2b, shopify-b2b-dtc-different-login-flows"
+    },
+    {
+      "slug": "differences-between-shopify-legacy-and-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "shopify-legacy-to-customer-accounts-migration",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "shopify-migrate-from-legacy-to-customer-accounts-b2b-login",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "shopify-b2b-login-alternatives-to-email-otp-login",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "shopify-sso-migration-guide-legacy-to-customer-accounts",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "register-multiple-email-domains-in-shopify-b2b",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "how-to-add-email-password-signup-for-shopify-b2b",
+      "warning": "related not imported: how-to-monitor-third-party-app-api-activity-shopify, how-to-monitor-staff-login-activity-shopify, shopify-mcp-server-security-checks, how-mcp-brokers-improve-shopify-ai-security, what-ai-agent-activities-should-trigger-alerts-in-shopify, how-can-merchants-monitor-ai-agent-behaviour-in-shopify"
+    },
+    {
+      "slug": "something-went-wrong-please-contact-your-administrator-error-during-login",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "how-do-i-get-the-sso-logs",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "getting-error-invalid-response-asp-net",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "why-is-test-configuration-not-working-asp-net",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "authorization-server-id-invalid-error-while-configuring-okta-oauth-sso",
+      "warning": "related not imported: how-do-i-add-the-integration-changes-in-my-application"
+    },
+    {
+      "slug": "how-do-i-add-multiple-idps-multiple-applications-for-sso",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "how-does-attribute-mapping-works-asp-net",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "signed-request-is-not-working-for-asp-net-application",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "i-am-not-able-to-find-my-idp-in-the-idp-list",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "signed-request-not-working-for-azure-appservices",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "where-to-download-and-activate-the-paid-version-of-the-plugin-asp-net",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "how-do-i-get-the-license-key-to-activate-the-premium-enterprise-licensed-plugins",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "i-need-an-invoice-for-my-payment-asp-net",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "why-should-you-renew-your-license",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "can-i-move-my-licenses-from-one-email-address-to-another",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "why-should-i-register-on-miniorange-for-dnn-2fa",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "dnn-2fa-license-activation",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "dnn-saml-sso-license-activation",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "how-to-update-license-expiry-on-asp-net-sso-plugin-and-application",
+      "warning": "related not imported: license-activation-steps-for-miniorange-asp-net-saml-sso-plugins, license-activation-steps-for-miniorange-umbraco-saml-sso-plugins"
+    },
+    {
+      "slug": "check-download-saml-response-using-saml-tracer-logs",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "test-configuration-successful-try-log-stuck-redirect-loop",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "see-error-not-sign-please-contact-administrator-login",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "free-license-key-staging-site-use-production",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "how-to-transfer-the-license-key-from-one-site-to-another",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "upgrade-free-plugin-premium-version-2",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "configure-sso-drupal-applications",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "just-made-payment-paid-plan-still-see-free-plan",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "why-should-i-register-2",
+      "warning": "related not imported: how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "not-allow-or-not-allowed-error-while-performing-sso",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "how-to-add-update-callback-url-on-the-microsoft-entra-id",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "getting-error-username-or-email-not-received-check-your-attribute-mapping-configuration",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "clicking-on-logout-in-drupal-not-logging-me-out-from-azure-b2c",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "how-to-redirect-url-after-logout-in-azure-ad-b2c",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "getting-error-invalid-response-drupal-oauth",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "drupal-login-error",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "i-am-getting-client-credentials-were-not-found-in-the-headers-or-body-when-i-try-to-perform-test-configuration",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "drupal-upgrade-module",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "drupal-azure-ad-b2c-callback-redirect-url-issue",
+      "warning": "related not imported: resolve-oauth-redirect-uri-mismatch-drupal-entra-id-azure-ad-b2c, how-to-configure-slo-between-drupal-and-azure-ad-b2c, how-to-configure-slo-between-drupal-and-microsoft-entra-id"
+    },
+    {
+      "slug": "how-to-configure-slo-between-drupal-and-keycloak",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "where-to-download-the-paid-version-of-a-drupal-module-how-to-activate-the-drupal-premium-module",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "how-to-install-premium-modules-using-composer-circleci",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "configure-custom-certificate-module",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "how-to-change-account-name-in-google-authenticator-app",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "limitation-transactions-authentication-methods-qr-code-authenticationgoogle-authenticator-like-otp-sms-limit-5-transactions-free-version-t",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "setup-email-verification-2-fa-method-click-accept-transaction-link-see-not-authorized-perform-action",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "add-sms-andor-email-credits-account",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "soft-token-based-2fa-method-like-google-authy-miniorange-authenticator-get-incorrect-otp-even-enter-correct-otp",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "how-to-enable-2fa-for-only-particular-drupal-roles",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "how-users-can-setup-2fa-method-drupal-2fa",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "i-want-to-choose-only-some-2fa-methods-for-my-users",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "is-it-possible-for-users-to-change-their-second-factor-of-authentication-drupal-2fa",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out"
+    },
+    {
+      "slug": "what-user-data-is-stored-during-authentication",
+      "warning": "related not imported: are-email-sms-credits-prepaid-or-usage-based, miniorange-server-locations-aws-regions, what-happens-when-otp-credits-run-out-2, what-user-data-does-miniorange-store, what-happens-when-otp-credits-run-out, how-to-generate-custom-x509-certificate-in-saml-idp"
+    },
+    {
+      "slug": "blocked-by-it-admin-cant-open-app-android",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "how-to-remove-work-profile-from-android-devices",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "how-to-reset-company-owned-devices-for-new-enrollment",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "g-suite-not-supported-managed-google-play-accounts-android",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "how-to-ensure-work-apps-data-not-shared-to-personal-apps-on-byod-enrollments",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "why-android-device-enrollment-fails-due-to-network-blocking",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "what-can-employer-see-on-android-work-profile",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "how-to-sync-iphone-with-mdm-without-internet-or-wifi",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "common-mdm-enrollment-issues-and-fixes",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "what-are-common-device-enrollment-issues-and-how-to-resolve-them",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "what-data-can-employer-see-on-byod-device",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "android-mdm-enrollment-failed",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security, mdm-prevent-corporate-data-breaches"
+    },
+    {
+      "slug": "what-are-android-enterprise-device-enrollment-requirements",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "mdm-diagnostic-logs-windows-event-viewer",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "how-to-enroll-ios-devices-apple-business-manager-mdm",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security, mdm-prevent-corporate-data-breaches"
+    },
+    {
+      "slug": "which-devices-or-os-work-with-mdm-solution",
+      "warning": "related not imported: how-to-install-private-apps-managed-google-play, device-administrator-vs-android-enterprise, how-to-configure-android-enterprise-work-profile-mdm, mdm-zero-trust-security"
+    },
+    {
+      "slug": "how-to-resolve-the-fatal-error-cannot-declare-class-because-the-name-is-already-in-use",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "i-see-the-error-we-could-not-sign-you-in-please-contact-your-administrator-during-login",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "my-test-configuration-was-successful-but-when-i-try-to-log-in-i-am-stuck-in-a-redirect-loop",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "logged-in-to-identity-provider-and-it-redirected-joomla-site-im-not-logged",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "unable-to-find-a-certificate-matching-the-configured-fingerprint",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "how-to-check-or-download-saml-request-response-using-saml-tracer-logs",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "when-i-click-on-test-configuration-it-takes-me-to-my-own-site-instead-of-redirecting-me-to-idp",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "joomla-saml-sso-not-working-while-using-admin-tools",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "why-am-i-getting-missing-table-error-while-updating-joomla-saml-plugin",
+      "warning": "related not imported: how-to-export-configuration-in-joomla-saml"
+    },
+    {
+      "slug": "token-type-is-not-allowed-error-on-sharepoint-rest-api",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "how-plugin-handles-full-control-permissions-granted-within-sharepoint-tenant",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "what-are-the-security-measures-implemented-in-the-sharepoint-plugin",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "does-the-plugin-comply-with-relevant-data-security-standards",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "permissions-required-for-connecting-sharepoint-to-wordpress-site",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "sharepoint-security-compliance-permissions",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "difference-of-automatic-and-manual-connection-in-sharepoint",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "wordpress-hack-impact-on-sharepoint-data",
+      "warning": "related not imported: connect-specific-sharepoint-sites-to-wordpress"
+    },
+    {
+      "slug": "types-of-sensitive-data-email-dlp-detect",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "what-is-pii-and-how-to-protect-it-in-emails",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "email-security-vs-email-dlp-difference",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "block-users-from-emailing-sensitive-documents",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "dlp-tool-scan-email-attachments-before-sent",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "best-email-dlp-for-hipaa-gdpr-compliance",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "email-dlp-deployment-challenges-and-solution",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "how-to-implement-email-dlp-in-organization",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "email-dlp-configuration-in-office-365-gsuite",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "proofpoint-vs-mimecast-vs-zscaler-email-dlp",
+      "warning": "related not imported: what-is-email-dlp, how-to-implement-email-dlp, email-dlp-deployment-challenges, email-dlp-best-practices-office-365-google-workspace"
+    },
+    {
+      "slug": "parental-consent-minors-education",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "bank-notice-delivery-proof-dpdp",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "dpdp-compliance-records",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement, reasonable-security-safeguards"
+    },
+    {
+      "slug": "third-party-data-breach-liability",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "restaurant-customer-data-collection",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "hotel-guest-id-collection-dpdp",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "who-is-a-data-fiduciary-under-dpdp-act",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement, reasonable-security-safeguards"
+    },
+    {
+      "slug": "grievance-officer-data-protection-officer-roles",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "who-is-a-data-principal-under-dpdp-act",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement, reasonable-security-safeguards"
+    },
+    {
+      "slug": "fraud-prevention-cybersecurity-consent-dpdp",
+      "warning": "related not imported: rbi-dpdp-compliance-requirements, personal-data-retention, dpdp-readiness-before-enforcement"
+    },
+    {
+      "slug": "enable-phpcurl-extension",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "capture-saml-tracer-logs",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "how-to-whitelist-your-domain",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad, installed-plugin-website-stopped-working-can-recover-site-locked-installed-plugin-website-stopped-working-can-recover-site"
+    },
+    {
+      "slug": "gain-access-website-get-locked",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "change-registered-email-address",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "personal-data-process",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "getting-fatal-error-call-undefined-function-json_last_error",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "reset-password",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "need-invoice-payment",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "incompatibility-with-plugins",
+      "warning": "related not imported: how-to-save-new-credit-card-mo-account, issuer-uri-does-not-have-assertion-consumer-service-url, ldaps-certificate-fetching-issue, trouble-signing-you-in-while-performing-sso-in-azure-ad"
+    },
+    {
+      "slug": "how-to-enable-php-ldap-extension",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping, test-authentication-not-working"
+    },
+    {
+      "slug": "what-is-search-base-in-ldap-environment",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "ldap-service-account-credentials",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "configure-ldap",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "what-is-meant-by-search-filter-in-my-ldap-environment",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "why-is-service-account-username-not-working",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping, test-authentication-not-working"
+    },
+    {
+      "slug": "authenticate-particular-ad-groups",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "why-is-contact-ldap-server-not-working",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping, test-authentication-not-working"
+    },
+    {
+      "slug": "test-connection-error",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "mapping-multiple-ldap-group-roles",
+      "warning": "related not imported: how-do-users-present-in-different-organizational-unitsous-login-into-wordpress, what-are-the-different-service-account-username-attributes, how-to-configure-role-mapping"
+    },
+    {
+      "slug": "premium-plugin-installation",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin"
+    },
+    {
+      "slug": "403-forbidden-error",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "i-am-getting-route-was-found-matching-the-url-and-request-method-error",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "map-roles-usergroup",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "getting-error-username-not-received-check-attribute-mapping-configuration-getting-error-email-not-received-check-attribute-mapping-configuration",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "getting-error-invalid-response",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "i-cannot-find-domain-and-realm-in-keycloak-admin-interface",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "already-configure-custom-redirect-url-logout-url-sign-settings-advanced-settings-redirects-providers-login-page-click-logout-can-go-back-home",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "click-logout-sends-back-homepage-try-login-user-doesnt-ask-login-automatically-logs-user",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "what-is-the-redirect-callback-url-used-in-the-wordpress-oauth-sso-plugin",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "i-want-to-disable-the-signup-now-option-on-the-cognito-page-at-the-time-of-sso",
+      "warning": "related not imported: woocommerce-discord-role-mapping, auto-add-users-to-discord-wordpress, how-to-assign-discord-roles-based-on-membership-or-subscription-levels-in-wordpress, how-does-role-mapping-work-between-wordpress-and-discord, how-to-integrate-discord-with-wordpress, wordpress-discord-integration-features"
+    },
+    {
+      "slug": "set-sms-email-otp-message-template",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "use-own-gateway-plugin",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "error-error-sending-otp-mean",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "change-length-otp",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "change-sender-id",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "change-time-otp-stays-valid",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "getting-error-in-sending-otp-please-enter-valid-email-id-or-contact-site-admin",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin, how-to-make-payment-for-the-otp-verification-plugin"
+    },
+    {
+      "slug": "configure-gateway-url",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "plans-related-issue",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "change-email-address",
+      "warning": "related not imported: generate-transaction-reports-in-otp-verification-plugin, install-addons-in-otp-verification-plugin, how-many-countries-do-we-support-in-the-miniorange-otp-plugin, what-do-you-mean-by-the-addons-in-the-miniorange-otp-plugin, integrate-custom-form-with-otp-verification-plugin"
+    },
+    {
+      "slug": "how-to-gain-access-to-my-website-if-i-get-locked-out",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "change-google-authenticator-name",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "i-want-to-change-custom-redirect-login-url-for-a-particular-user-role-how-i-do-that",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "users-not-prompted-2-factor-login",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "i-am-facing-issue-in-scanning-qr-code-what-is-the-reason-behind-the-error",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "transaction-limitation",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "login-issue",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "how-to-enable-or-disable-2fa-for-a-particular-user",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "license-plan",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "authorization-error-when-using-two-factor",
+      "warning": "related not imported: invalid-bind-account-dn-password, how-to-enable-password-less-login, want-to-know-how-much-is-sms-sending-transaction-limit-is-remaining, want-to-customize-powered-by-logo, want-to-create-my-own-email-template"
+    },
+    {
+      "slug": "what-is-mint-address",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "is-it-secure-to-connect-the-crypto-wallet-to-the-website-page",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "how-to-change-license-domain",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site, how-the-signature-verification-works"
+    },
+    {
+      "slug": "does-your-solution-allow-to-build-nft-marketplace",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "what-if-my-wallet-is-not-supported-for-login",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "what-if-my-nft-token-standard-is-not-supported-for-nft-token-gating",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "is-it-possible-to-set-a-different-redirect-url-after-login-logout",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site, how-the-signature-verification-works"
+    },
+    {
+      "slug": "do-you-provide-additional-solutions-for-web3-integration-with-other-technology",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "does-miniorange-offer-technical-support",
+      "warning": "related not imported: how-to-get-the-loopring-api-key, wordpress-plugin-integration-with-gamestop-wallet-to-show-gamestop-button, wordpress-plugin-to-allow-access-of-website-to-cryptocurrency-wallet-logged-in-users, web3-authentication-plugin-not-compatible-with-plugins-installed-on-site"
+    },
+    {
+      "slug": "iam-solution-zero-trust-security",
+      "warning": "related not imported: why-choose-miniorange-iam, automated-user-provisioning-in-iam"
+    },
+    {
+      "slug": "iam-solution-application-integrations",
+      "warning": "related not imported: why-choose-miniorange-iam, automated-user-provisioning-in-iam"
+    },
+    {
+      "slug": "what-is-identity-and-access-management-solution",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "iam-solution-compliance",
+      "warning": "related not imported: why-choose-miniorange-iam, automated-user-provisioning-in-iam"
+    },
+    {
+      "slug": "how-single-sign-on-improves-iam",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "miniorange-iam-supported-authentication-protocols",
+      "warning": "related not imported: why-choose-miniorange-iam, automated-user-provisioning-in-iam"
+    },
+    {
+      "slug": "choose-the-right-identity-access-management-solution",
+      "warning": "related not imported: why-choose-miniorange-iam, automated-user-provisioning-in-iam"
+    },
+    {
+      "slug": "identity-and-access-management-solution-benefits",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "iam-solution-multi-factor-authentication",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "how-identity-and-access-management-solution-works",
+      "warning": "related not imported: why-choose-miniorange-iam"
+    },
+    {
+      "slug": "how-to-allow-ldaps-drupal-ldap",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "refund-policy-ldap-ad-wordpress",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "how-to-allow-only-users-of-particular-ad-groups-to-authenticate",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "connection-test-issue-ldap-wordpress",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "how-to-use-ldap-ad-credentials-to-login-to-office-365-drupal-ldap",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "error-while-trying-test-connection",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "search-base-in-ldap-environment-wordpress",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "does-your-plugin-support-multiple-ldap-servers-drupal-ldap",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "get-back-administrator-access-drupal-ldap",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    },
+    {
+      "slug": "are-multiple-domains-in-the-same-ad-forest-supported",
+      "warning": "related not imported: ldap-directory-wordpress-works, attribute-configuration-issue-ldap-ad-wordpress, show-only-active-users-ldap-ad-wordpress, custom-search-filter-works-ldap-wordpress"
+    }
+  ],
+  "failed": [],
+  "categories": 82,
+  "topLevelCategories": 25,
+  "faqs": 548,
+  "sitemapUrls": 1049,
+  "listedInCategories": 1048,
+  "maxPerCategory": 10,
+  "sourceArticlesInCategories": 1048,
+  "notInSitemap": [],
+  "notListedInAnyCategory": [
+    "is-it-safe-to-use-mcp-with-wordpress"
+  ]
+}
