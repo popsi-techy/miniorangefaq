@@ -25,7 +25,7 @@ export function HomePage() {
 
   return (
     <>
-      <Box component="section" aria-labelledby="hero-title" sx={{ position: 'relative', isolation: 'isolate', zIndex: 2, borderBottom: 1, borderColor: 'divider', mb: { xs: 5, md: 7 } }}>
+      <Box component="section" aria-labelledby="hero-title" sx={{ position: 'relative', isolation: 'isolate', zIndex: 2, borderBottom: 1, borderColor: 'divider', mb: { xs: 6, md: 8 } }}>
         <HeroBackdrop />
         <PageContainer>
           <Box sx={{ position: 'relative', zIndex: 1, pt: { xs: 6, md: 8 }, pb: { xs: 6, md: 8 }, textAlign: 'center' }}>
@@ -57,7 +57,7 @@ export function HomePage() {
           <CategoryList categories={more} columns={4} />
         </Box>
 
-        <Grid container spacing={{ xs: 6, md: 6 }} sx={{ pt: { xs: 7, md: 10 } }}>
+        <Grid container spacing={{ xs: 7, md: 8 }} sx={{ pt: { xs: 8, md: 12 } }}>
           <Grid size={{ xs: 12, md: 6 }} component="section" aria-labelledby="popular-heading">
             <SectionHeading id="popular-heading" title="Most viewed" />
             <QuestionList faqs={getMostViewed(6)} showViews linkState={{ from: 'home' }} />
@@ -68,7 +68,7 @@ export function HomePage() {
           </Grid>
         </Grid>
 
-        <Box sx={{ pt: { xs: 7, md: 10 } }}>
+        <Box sx={{ pt: { xs: 8, md: 12 } }}>
           <SupportCallout />
         </Box>
       </PageContainer>

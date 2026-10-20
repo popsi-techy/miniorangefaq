@@ -10,16 +10,19 @@ interface SectionHeadingProps {
   title: ReactNode;
   /** Optional "View all"-style link shown on the right. */
   action?: { label: string; href: string };
+  /** Optional control shown on the right instead of a link (e.g. a SortSelect). */
+  trailing?: ReactNode;
   component?: 'h2' | 'h3';
 }
 
-/** Compact heading row for a page section, with an optional trailing link. */
-export function SectionHeading({ id, title, action, component = 'h2' }: SectionHeadingProps) {
+/** Compact heading row for a page section, with an optional trailing link or control. */
+export function SectionHeading({ id, title, action, trailing, component = 'h2' }: SectionHeadingProps) {
   return (
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 2, mb: 1.5, minHeight: 28 }}>
+    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', columnGap: 2, rowGap: 1, mb: 2, minHeight: 28 }}>
       <Typography id={id} variant={component === 'h2' ? 'h2' : 'h3'} component={component}>
         {title}
       </Typography>
+      {trailing}
       {action && (
         <Link
           href={action.href}

@@ -55,7 +55,7 @@ export function CategoryList({ categories, variant = 'grid', columns = 3, terms 
                 display: 'flex',
                 alignItems: 'center',
                 gap: 1,
-                minHeight: nav ? 32 : 40,
+                minHeight: nav ? 36 : 40,
                 px: 1.5,
                 borderRadius: 1.5,
                 fontSize: fontSize.md,

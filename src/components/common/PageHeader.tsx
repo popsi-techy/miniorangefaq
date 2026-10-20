@@ -17,6 +17,8 @@ interface PageHeaderProps {
   search?: boolean;
   /** Extra controls under the title, e.g. a filter field or the large search. */
   children?: ReactNode;
+  /** No bottom margin, so content (e.g. a sidebar divider) can meet the header divider. */
+  flush?: boolean;
 }
 
 /**
@@ -24,7 +26,7 @@ interface PageHeaderProps {
  * breadcrumbs → H1 → subtitle → controls → search, all centred, on a full-width soft
  * gradient (top-centre orange wash over a grey-to-white fade) with a divider below.
  */
-export function PageHeader({ title, titleId, breadcrumbs, subtitle, search = true, children }: PageHeaderProps) {
+export function PageHeader({ title, titleId, breadcrumbs, subtitle, search = true, children, flush = false }: PageHeaderProps) {
   return (
     <Box
       component="header"
@@ -34,7 +36,7 @@ export function PageHeader({ title, titleId, breadcrumbs, subtitle, search = tru
         zIndex: 2,
         pt: { xs: 4, md: 6 },
         pb: { xs: 4, md: 5 },
-        mb: { xs: 3, md: 4 },
+        mb: flush ? 0 : { xs: 3, md: 4 },
         textAlign: 'center',
         // Full-bleed background + divider (main clips the horizontal overflow)
         '&::before': {
@@ -55,7 +57,7 @@ export function PageHeader({ title, titleId, breadcrumbs, subtitle, search = tru
         },
       }}
     >
-      {breadcrumbs && <Box sx={{ mb: 2, display: 'flex', justifyContent: 'center', '& .MuiBreadcrumbs-ol': { justifyContent: 'center' } }}>{breadcrumbs}</Box>}
+      {breadcrumbs && <Box sx={{ mb: 1.5, display: 'flex', justifyContent: 'center', '& .MuiBreadcrumbs-ol': { justifyContent: 'center' } }}>{breadcrumbs}</Box>}
       {title && (
         <Typography id={titleId} variant="h1" sx={{ maxWidth: 760, mx: 'auto', overflowWrap: 'anywhere' }}>
           {title}

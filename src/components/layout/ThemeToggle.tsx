@@ -7,7 +7,7 @@ import LightModeOutlined from '@mui/icons-material/LightModeOutlined';
 import { cssVar, iconSize, layout, radius } from '../../theme/tokens';
 
 /**
- * Segmented light/dark switch. Follows the system setting until the user picks one;
+ * Segmented light/dark switch. Defaults to light until the user picks one;
  * the choice is remembered in this browser (MUI stores it under "mui-mode").
  */
 export function ThemeToggle() {

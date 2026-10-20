@@ -12,7 +12,7 @@ import { rootCssVariables, schemeCssVariables } from './tokens';
  */
 export function ThemeRoot({ children }: { children: ReactNode }) {
   return (
-    <ThemeProvider theme={theme} defaultMode="system" disableTransitionOnChange>
+    <ThemeProvider theme={theme} defaultMode="light" disableTransitionOnChange>
       <CssBaseline enableColorScheme />
       <GlobalStyles
         styles={{

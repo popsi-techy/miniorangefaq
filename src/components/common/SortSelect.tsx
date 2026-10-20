@@ -13,7 +13,7 @@ interface SortSelectProps<K extends string> {
   disabledLabel?: string;
 }
 
-/** Compact sort dropdown for list toolbars; aligns with FilterField. */
+/** Compact sort dropdown for list toolbars. */
 export function SortSelect<K extends string>({ value, options, onChange, disabled, disabledLabel }: SortSelectProps<K>) {
   return (
     <Select

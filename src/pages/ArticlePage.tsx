@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
@@ -14,6 +14,7 @@ import { MetaItem } from '../components/common/MetaItem';
 import { PageContainer } from '../components/common/PageContainer';
 import { PageHeader } from '../components/common/PageHeader';
 import { ArticleContent } from '../components/faq/ArticleContent';
+import type { ArticleLinkState } from '../components/faq/QuestionRow';
 import { RelatedQuestions } from '../components/faq/RelatedQuestions';
 import { ArticleFeedback } from '../components/feedback/ArticleFeedback';
 import { Breadcrumbs } from '../components/layout/Breadcrumbs';
@@ -33,6 +34,7 @@ type BodyResult = { key: string; blocks: Block[] } | { key: string; error: strin
  */
 export function ArticlePage() {
   const { slug = '' } = useParams();
+  const location = useLocation();
   const faq = getFaqBySlug(slug);
   const [result, setResult] = useState<BodyResult | null>(null);
   const [attempt, setAttempt] = useState(0);
@@ -70,6 +72,12 @@ export function ArticlePage() {
   const trail = getCategoryTrail(faq.categoryId);
   const product = trail[0];
   const updated = formatDate(faq.updatedAt);
+  // Return to the list the reader came from (search results, filtered/sorted topic list); otherwise the product
+  const from = location.state as ArticleLinkState | null;
+  const back =
+    from?.returnTo?.startsWith('/') && from.returnLabel
+      ? { href: from.returnTo, label: `Back to ${from.returnLabel}` }
+      : { href: categoryPath(product), label: 'Back to all questions' };
 
   return (
     <PageContainer>
@@ -80,8 +88,8 @@ export function ArticlePage() {
       />
 
       <Box component="article" aria-labelledby="article-title" sx={{ maxWidth: layout.readingMaxWidth, mx: 'auto' }}>
-        <Button variant="text" size="small" startIcon={<ArrowBackRounded />} href={categoryPath(product)} sx={{ ml: -1, mb: 2.5 }}>
-          Back to all questions
+        <Button variant="text" size="small" startIcon={<ArrowBackRounded />} href={back.href} sx={{ ml: -1, mb: 2.5 }}>
+          {back.label}
         </Button>
         <Typography
           id="article-title"

@@ -69,15 +69,18 @@ export const theme = createTheme({
       letterSpacing: letterSpacing.tight,
       [up('md')]: { fontSize: fontSize['3xl'] },
     },
-    h2: { fontSize: fontSize.lg, fontWeight: font.weightSemibold, lineHeight: lineHeight.snug, letterSpacing: letterSpacing.snug },
-    h3: { fontSize: fontSize.md, fontWeight: font.weightSemibold, lineHeight: lineHeight.snug },
+    // Section headings: a clear step above everything in the lists below them
+    h2: { fontSize: fontSize.xl, fontWeight: font.weightSemibold, lineHeight: lineHeight.snug, letterSpacing: letterSpacing.snug },
+    // Sub-headings (sidebar "Topics", "Was this helpful?")
+    h3: { fontSize: fontSize.lg, fontWeight: font.weightSemibold, lineHeight: lineHeight.snug },
     h4: { fontSize: fontSize.md, fontWeight: font.weightSemibold, lineHeight: lineHeight.snug },
-    h5: { fontSize: fontSize.md, fontWeight: font.weightMedium, lineHeight: lineHeight.snug },
+    // Question / card titles: medium weight, the only 500s in a list
+    h5: { fontSize: fontSize.lg, fontWeight: font.weightMedium, lineHeight: lineHeight.title },
     h6: { fontSize: fontSize.sm, fontWeight: font.weightSemibold, lineHeight: lineHeight.snug },
     body1: { fontSize: fontSize.md, lineHeight: lineHeight.body },
     body2: { fontSize: fontSize.sm, lineHeight: lineHeight.body },
     lead: { fontSize: fontSize.md, lineHeight: lineHeight.body, color: cssVar.textMuted, [up('md')]: { fontSize: fontSize.lg } },
-    meta: { fontSize: fontSize.xs, lineHeight: lineHeight.snug, color: cssVar.textMuted, fontVariantNumeric: 'tabular-nums' },
+    meta: { fontSize: fontSize.xs, lineHeight: 1.5, color: cssVar.textMuted, fontVariantNumeric: 'tabular-nums' },
     caption: { fontSize: fontSize.xs, lineHeight: lineHeight.snug },
     overline: { fontSize: fontSize.xs, fontWeight: font.weightMedium, letterSpacing: letterSpacing.wide, lineHeight: lineHeight.snug },
     button: { fontSize: fontSize.md, fontWeight: font.weightMedium, textTransform: 'none', letterSpacing: 0 },

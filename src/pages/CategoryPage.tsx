@@ -1,14 +1,13 @@
 import { useLocation, useParams } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { EmptyState } from '../components/common/EmptyState';
-import { FilterField } from '../components/common/FilterField';
 import { FilterPill } from '../components/common/FilterPill';
 import { ListPagination } from '../components/common/ListPagination';
 import { PageContainer } from '../components/common/PageContainer';
 import { PageHeader } from '../components/common/PageHeader';
+import { SectionHeading } from '../components/common/SectionHeading';
 import { SortSelect } from '../components/common/SortSelect';
 import { CategoryList } from '../components/faq/CategoryList';
 import { QuestionList } from '../components/faq/QuestionList';
@@ -16,10 +15,8 @@ import { Breadcrumbs } from '../components/layout/Breadcrumbs';
 import { SupportCallout } from '../components/support/SupportCallout';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { useUrlParams } from '../hooks/useUrlParams';
-import { categoryPath, getCategoryById, getCategoryBySlug, getCategoryTrail, getFaqsInCategory, getShortName, getSubcategories, siteConfig } from '../lib/content';
-import { pluralize } from '../lib/format';
+import { categoryPath, getCategoryById, getCategoryBySlug, getCategoryTrail, getFaqsInCategory, getSubcategories, siteConfig } from '../lib/content';
 import { readPage } from '../lib/pagination';
-import { searchFaqs, tokenize } from '../lib/search';
 import { layout } from '../theme/tokens';
 import type { Category, Faq } from '../types/faq';
 import { NotFoundPage } from './NotFoundPage';
@@ -56,7 +53,7 @@ function TopicNav({ product, currentId }: { product: Category; currentId: string
 
 /**
  * Category detail: /kb/:product or /kb/:product/:topic (same URLs as the source site).
- * Filter (?q), sort (?sort) and page (?page) live in the URL so Back restores the list.
+ * Sort (?sort) and page (?page) live in the URL so Back restores the list.
  */
 export function CategoryPage() {
   const slug = useParams()['*'] ?? '';
@@ -68,15 +65,11 @@ export function CategoryPage() {
   const product = trail[0];
   const hasTopics = product ? getSubcategories(product.id).length > 0 : false;
 
-  const filter = params.get('q') ?? '';
   const sortParam = params.get('sort');
   const sort: SortKey = sortParam && sortParam in SORT_LABELS ? (sortParam as SortKey) : 'views';
 
   const all = category ? getFaqsInCategory(category.id) : [];
-  const terms = filter.trim() ? tokenize(filter).terms : [];
-  const list = terms.length
-    ? searchFaqs(filter, Infinity, new Set(all.map((f) => f.categoryId))).results.map((r) => r.faq)
-    : [...all].sort(SORTS[sort]);
+  const list = [...all].sort(SORTS[sort]);
 
   const pageSize = siteConfig.listing.pageSize;
   const page = readPage(params.get('page'), list.length, pageSize);
@@ -95,84 +88,91 @@ export function CategoryPage() {
   const parent = category.parentId ? getCategoryById(category.parentId) : undefined;
 
   return (
-    <PageContainer>
-      <PageHeader
-        breadcrumbs={
-          <Breadcrumbs items={[...trail.map((c, i) => ({ label: c.name, to: i < trail.length - 1 ? categoryPath(c) : undefined }))]} />
-        }
-        title={category.name}
-        subtitle={category.description ?? undefined}
-      />
+    <>
+      <PageContainer>
+        <PageHeader
+          breadcrumbs={
+            <Breadcrumbs items={[...trail.map((c, i) => ({ label: c.name, to: i < trail.length - 1 ? categoryPath(c) : undefined }))]} />
+          }
+          // The header always names the product; the current topic is the list heading below
+          title={product.name}
+          subtitle={product.description ?? undefined}
+          flush
+        />
 
-      <Box sx={{ display: 'grid', gridTemplateColumns: { xs: 'minmax(0, 1fr)', md: `${layout.sidebarWidth}px minmax(0, 1fr)` }, gap: { xs: 0, md: 6 } }}>
-        <Box component="aside" sx={{ minWidth: 0, position: { md: 'sticky' }, top: { md: `calc(${layout.headerHeight}px + var(--sticky-search, 0px) + 24px)` }, alignSelf: 'start' }}>
-          <TopicNav product={product} currentId={category.id} />
-        </Box>
+        {/* Body uses the page's full content width: topics at the left margin, questions fill the rest */}
+        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: 'minmax(0, 1fr)', md: `${layout.sidebarWidth}px minmax(0, 1fr)` }, columnGap: 6 }}>
+          <Box
+            component="aside"
+            sx={{
+              minWidth: 0,
+              alignSelf: 'stretch',
+              ml: { md: -1.5 },
+              pt: { xs: 3, md: 4 },
+            }}
+          >
+            <Box sx={{ position: { md: 'sticky' }, top: { md: `calc(${layout.headerHeight}px + var(--sticky-search, 0px) + 24px)` } }}>
+              {/* Same row height and gap as the list's SectionHeading + sort, so both columns start on one line */}
+              <Typography
+                variant="h3"
+                component="h2"
+                sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', minHeight: layout.controlHeight, px: 1.5, mb: 2 }}
+              >
+                Topics
+              </Typography>
+              <TopicNav product={product} currentId={category.id} />
+            </Box>
+          </Box>
 
-        <Box>
-          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={1} sx={{ mb: 1.5 }}>
-            <FilterField
-              value={filter}
-              onChange={(v) => update({ q: v || null })}
-              label={`Search within ${getShortName(category)}`}
-              sx={{ flex: 1 }}
+          <Box
+            sx={{
+              minWidth: 0,
+              pt: { xs: 0, md: 4 },
+            }}
+          >
+            {/* The page header search is the only search here; this row names the current topic and sorts it */}
+            <SectionHeading
+              id="questions-heading"
+              title={category.id === product.id ? 'All questions' : category.name}
+              trailing={<SortSelect value={sort} options={SORT_LABELS} onChange={(v) => update({ sort: v === 'views' ? null : v })} />}
             />
-            <SortSelect
-              value={sort}
-              options={SORT_LABELS}
-              onChange={(v) => update({ sort: v === 'views' ? null : v })}
-              disabled={terms.length > 0}
-              disabledLabel="Relevance"
-            />
-          </Stack>
 
-          <Typography variant="meta" component="p" aria-live="polite" sx={{ minHeight: 20, mb: 0.5 }}>
-            {terms.length > 0 && `${pluralize(list.length, 'result')} for “${filter}”`}
-          </Typography>
-
-          {visible.length ? (
-            <>
-              <QuestionList
-                faqs={visible}
-                showViews
-                showDate
-                showCategory={category.id === product.id && hasTopics}
-                terms={terms}
-                headingComponent="h2"
-                aria-label={`Questions in ${category.name}`}
-                linkState={{ from: 'category', returnTo, returnLabel: category.name }}
-              />
-              <ListPagination
-                page={page}
-                pageSize={pageSize}
-                total={list.length}
-                onChange={(p) => update({ page: p > 1 ? String(p) : null }, { replace: false })}
-              />
-            </>
-          ) : (
-            <EmptyState
-              title={terms.length ? 'No matching questions' : 'No questions yet'}
-              description={terms.length ? 'Try other keywords or search the whole knowledge base.' : 'Browse another category or search the knowledge base.'}
-              actions={
-                <>
-                  {terms.length > 0 && (
-                    <Button variant="outlined" onClick={() => update({ q: null })}>
-                      Clear filter
-                    </Button>
-                  )}
-                  <Button variant="contained" href={terms.length ? `/search?q=${encodeURIComponent(filter)}` : parent ? categoryPath(parent) : '/'}>
-                    {terms.length ? 'Search everything' : 'Browse products'}
+            {visible.length ? (
+              <>
+                <QuestionList
+                  faqs={visible}
+                  showViews
+                  showDate
+                  showCategory={category.id === product.id && hasTopics}
+                  headingComponent="h3"
+                  aria-label={`Questions in ${category.name}`}
+                  linkState={{ from: 'category', returnTo, returnLabel: category.name }}
+                />
+                <ListPagination
+                  page={page}
+                  pageSize={pageSize}
+                  total={list.length}
+                  onChange={(p) => update({ page: p > 1 ? String(p) : null }, { replace: false })}
+                />
+              </>
+            ) : (
+              <EmptyState
+                title="No questions yet"
+                description="Browse another category or search the knowledge base."
+                actions={
+                  <Button variant="contained" href={parent ? categoryPath(parent) : '/'}>
+                    Browse products
                   </Button>
-                </>
-              }
-            />
-          )}
+                }
+              />
+            )}
 
-          <Box sx={{ mt: { xs: 6, md: 8 } }}>
-            <SupportCallout description={`Need help with ${product.name}? Our team can help.`} />
+            <Box sx={{ mt: { xs: 6, md: 8 } }}>
+              <SupportCallout description={`Need help with ${product.name}? Our team can help.`} />
+            </Box>
           </Box>
         </Box>
-      </Box>
-    </PageContainer>
+      </PageContainer>
+    </>
   );
 }

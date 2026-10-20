@@ -65,7 +65,7 @@ export function QuestionRow({ faq, showCategory = false, showDate = false, showV
           <HighlightedText text={faq.title} terms={terms} />
         </Typography>
         {trail.length > 0 && (
-          <Typography variant="meta" component="p" sx={{ mt: 0.25 }}>
+          <Typography variant="meta" component="p" sx={{ mt: 0.5 }}>
             {trail.map((c) => c.name).join(' / ')}
           </Typography>
         )}
@@ -77,7 +77,7 @@ export function QuestionRow({ faq, showCategory = false, showDate = false, showV
         )}
       </Box>
       {(date || views) && (
-        <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 2, flexShrink: 0, pt: 0.25 }}>
+        <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 2, flexShrink: 0, pt: '3px' }}>
           {views && <MetaItem icon={<VisibilityOutlined />}>{views}</MetaItem>}
           {date && (
             <MetaItem>

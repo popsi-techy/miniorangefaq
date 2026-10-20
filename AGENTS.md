@@ -22,7 +22,7 @@ file; do not create a competing instruction file.
 src/
   app/          App.tsx, routes.tsx (URL map)
   components/
-    common/     AppLink, PageContainer, PageHeader, SectionHeading, MetaItem, FilterField,
+    common/     AppLink, PageContainer, PageHeader, SectionHeading, MetaItem,
                 FilterPill, SortSelect, EmptyState, LoadingState, ErrorState, ListPagination
     layout/     AppShell, Header (global-header placeholder), Footer, Logo, MiniOrangeLogo, Breadcrumbs, ThemeToggle
     search/     SearchInput (autocomplete), HighlightedText
@@ -113,9 +113,8 @@ Before adding any of these, use the existing one:
 | Page width / gutters | `PageContainer` |
 | Page header (centred breadcrumbs, H1, subtitle, search) | `PageHeader` + `Breadcrumbs` (not on Home) |
 | Question feedback | `ArticleFeedback`, directly under the answer |
-| Section title with "View all" | `SectionHeading` |
+| Section title with "View all" or a trailing control (sort) | `SectionHeading` |
 | Search field | `SearchInput` (`size="hero" \| "compact"`) |
-| Filter a visible list | `FilterField` (with clear button) |
 | Sort a list | `SortSelect` |
 | Facet filter / mobile topic nav | `FilterPill` |
 | Light/dark switch | `ThemeToggle` |
@@ -216,7 +215,7 @@ Do not mark work complete while build errors or broken core interactions remain.
 ### Core journeys to re-test
 
 - **A Search:** Home → type (suggestions) → Enter → results → open → "Back to results" restores query/page.
-- **B Browse:** Home → product card or product list → topic (sidebar / pills) → filter / sort → open → Back restores the list.
+- **B Browse:** Home → product card or product list → topic (sidebar / pills) → sort → open → Back restores the list.
 - **C Discover:** Home → Most viewed / Recently updated → article → related questions.
 - **D Support:** Article → "Contact support" / "No" feedback → `/support?article=…` pre-filled → validation.
 - **E Direct entry:** open `/kb/idp/admin` and `/knowledgebase/<slug>` directly; unknown slugs show the 404 with suggestions.

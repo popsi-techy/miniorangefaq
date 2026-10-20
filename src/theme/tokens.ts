@@ -159,21 +159,25 @@ export const font = {
   weightSemibold: 600,
 } as const;
 
-/** Type scale. Only these sizes may be used. */
+/**
+ * Type scale. Only these sizes may be used.
+ * Poppins has a large x-height, so the UI runs a step smaller than with most fonts;
+ * hierarchy comes from clear jumps between small text (12–15) and headings (18+).
+ */
 export const fontSize = {
-  xs: '0.875rem', // 14 — meta, badges, kbd
-  sm: '0.9375rem', // 15 — secondary UI, breadcrumbs, helper text, buttons (small)
-  md: '1rem', // 16 — UI body, list titles, inputs, buttons
-  lg: '1.0625rem', // 17 — article body, section titles
-  xl: '1.25rem', // 20 — article h2 (mobile), card titles
-  '2xl': '1.5rem', // 24 — page title (mobile), article h2 (desktop)
-  '3xl': '1.75rem', // 28 — page title (desktop), hero (mobile)
-  '4xl': '2.375rem', // 38 — homepage hero (desktop)
+  xs: '0.75rem', // 12 — meta (dates, views, category line), overline
+  sm: '0.8125rem', // 13 — breadcrumbs, helper text, small buttons, footer links
+  md: '0.875rem', // 14 — UI body, sidebar items, inputs, buttons
+  lg: '0.9375rem', // 15 — question & card titles, article body, lead
+  xl: '1.125rem', // 18 — section headings
+  '2xl': '1.375rem', // 22 — page title (mobile), article h2
+  '3xl': '1.875rem', // 30 — page title (desktop), hero (mobile)
+  '4xl': '2.5rem', // 40 — homepage hero (desktop)
 } as const;
 
 export const letterSpacing = {
-  tight: '-0.025em', // hero, page titles
-  snug: '-0.012em', // headings
+  tight: '-0.03em', // hero, page titles
+  snug: '-0.015em', // section headings
   normal: '0',
   wide: '0.06em', // overline
 } as const;
@@ -189,10 +193,11 @@ export const iconSize = {
 } as const;
 
 export const lineHeight = {
-  tight: 1.2,
-  snug: 1.4,
-  body: 1.6,
-  article: 1.7,
+  tight: 1.15, // display: hero, page titles
+  snug: 1.35, // headings
+  title: 1.45, // question / card titles (often wrap to two lines)
+  body: 1.6, // UI text
+  article: 1.75, // long-form answers
 } as const;
 
 /** MUI `theme.spacing(n)` = n * 8px (use 0.5 steps for 4px). */

@@ -1,6 +1,6 @@
 # Design system
 
-Minimal, monochrome, compact — orange is a sparse accent. Light and dark themes (system default,
+Minimal, monochrome, compact — orange is a sparse accent. Light and dark themes (light default,
 header toggle). Single source: `src/theme/tokens.ts` → MUI theme (`src/theme/theme.ts`) and CSS
 custom properties published by `src/theme/ThemeRoot.tsx`. Update this page whenever a token,
 variant or shared component changes.
@@ -10,7 +10,7 @@ variant or shared component changes.
 | Topic | Decision |
 |---|---|
 | Typeface | Poppins (Google Fonts, weights 400/500/600) |
-| Themes | Light + dark, follows the OS until the user toggles (stored in `localStorage["mui-mode"]`) |
+| Themes | Light + dark, defaults to light until the user toggles (stored in `localStorage["mui-mode"]`) |
 | Orange use | Primary buttons, focus ring, selected filter pills, small active indicators (sidebar bar, header underline), search highlights, logo. **Never** text colour or hover colour |
 | Density | 16px UI text, 17px article body, 36px controls (44px on touch devices) |
 | Lists | No excerpts. Dates and view counts kept. Page subtitles kept |
@@ -71,20 +71,31 @@ Known gaps from the palette, awaiting a brand decision: (1) primary button label
 
 ## Typography (Poppins)
 
-| Variant | Size | Weight | Use |
-|---|---|---|---|
-| `hero` | 28 → 38px, −0.025em | 600 | Homepage heading only |
-| `h1` | 24 → 28px, −0.025em | 600 | Page / article title (one per page) |
-| `h2` | 17px | 600 | Section titles |
-| `h3`, `h4` | 16px | 600 | Sub-sections, callout titles, featured product names |
-| `h5` | 16px | 500 | Question titles in lists, card titles |
-| `h6` | 15px | 600 | Footer headings |
-| `body1` | 16px / 1.6 | 400 | UI text |
-| `body2` | 15px / 1.6 | 400 | Secondary text |
-| `lead` | 16 → 17px, muted | 400 | Page intro |
-| `meta` | 14px, muted, tabular numbers | 400 | Dates, views, counts |
-| `overline` | 14px, 0.06em | 500 | Sidebar group label |
-| Article body | 17px / 1.7; h2 20→24, h3 20, h4 17 | — | `ArticleContent` |
+Poppins has a large x-height, so the UI runs a step smaller than with most fonts. Hierarchy comes
+from **clear size jumps** between small text (12–15px) and headings (18px+), **weight discipline**
+and **muted colour** for secondary information — not from making everything bigger or bolder.
+
+| Variant | Size | Weight | Line height | Use |
+|---|---|---|---|---|
+| `hero` | 30 → 40px, −0.03em | 600 | 1.15 | Homepage heading only |
+| `h1` | 22 → 30px, −0.03em | 600 | 1.15 | Page title (one per page) |
+| `h2` | 18px, −0.015em | 600 | 1.35 | Section headings (Products, Most viewed, Related questions) |
+| `h3` | 15px | 600 | 1.35 | Sub-headings (sidebar "Topics") |
+| `h4` | 14px | 600 | 1.35 | Small headings (callouts, "Was this helpful?", product cards) |
+| `h5` | 15px | 500 | 1.45 | Question / card titles — the only 500s in a list |
+| `h6` | 13px | 600 | 1.35 | Footer column headings |
+| `body1` | 14px | 400 | 1.6 | UI text, sidebar items, inputs |
+| `body2` | 13px | 400 | 1.6 | Secondary text, breadcrumbs, helper text |
+| `lead` | 14 → 15px, muted | 400 | 1.6 | Page intro |
+| `meta` | 12px, muted, tabular | 400 | 1.5 | Dates, views, category line |
+| `overline` | 12px, 0.06em | 500 | 1.35 | Small labels |
+| Article body | 15px | 400 | 1.75 | `ArticleContent`; h2 22px, h3 18px, h4 15px |
+
+Weight rules: 400 for running text, sidebar and footer; 500 only for question/card titles and the
+active sidebar item; 600 only for real headings. Never bold whole rows.
+
+Spacing rhythm (8px grid): section → section 96px (homepage), heading → content 16px, list rows
+14px vertical padding (≈72px with the category line), sidebar items 36px, breadcrumb → title 12px.
 
 ## Scales
 
@@ -108,11 +119,10 @@ Known gaps from the palette, awaiting a brand decision: (1) primary button label
 | Component | Purpose / key props |
 |---|---|
 | `PageContainer` | Page frame (1120px) and gutters |
-| `PageHeader` | centred page header: `breadcrumbs`, `title`/`titleId`, `subtitle` (text or meta row), `children` (controls), `search` (default true); divider below |
-| `SectionHeading` | section title + optional `action={{ label, href }}` link |
+| `PageHeader` | centred page header: `breadcrumbs`, `title`/`titleId`, `subtitle` (text or meta row), `children` (controls), `search` (default true); divider below; `flush` removes the bottom margin so content can meet the divider |
+| `SectionHeading` | section title + optional `action={{ label, href }}` link or `trailing` control (e.g. `SortSelect` on category pages) |
 | `Breadcrumbs` | `items: {label, to?}[]`, "/" separators; Home is implicit |
 | `SearchInput` | `size: 'hero' \| 'compact'`; suggestions (popular when empty; categories + questions + "See all") |
-| `FilterField` | search within the current list, with a clear button |
 | `SortSelect` | compact sort dropdown (`options` map, `disabledLabel`) |
 | `FilterPill` | facet / mobile-topic pill; `to` (link) or `onClick` (toggle); selected = primary orange fill |
 | `QuestionList` / `QuestionRow` | title (+ `showCategory`), `showDate`, `showViews` right-aligned; hover arrow |
@@ -128,7 +138,8 @@ Known gaps from the palette, awaiting a brand decision: (1) primary button label
 
 ## Patterns
 
-- **Sidebar navigation** (category pages, md+): "All questions" plus any product topics. A product with no topics still shows "All questions". Mobile shows the same as a scrolling pill row.
+- **Sidebar navigation** (category pages, md+): "All questions" plus any product topics. A product with no topics still shows "All questions". Sits at the page container's left margin and is sticky (no divider line); active item = grey background + orange bar; simple "Topics" heading (h3 style, normal text colour). The page header is `flush` here. Mobile shows the same as a scrolling pill row.
+- **Category page layout**: the body uses the full page container width — topics rail (232px) at the left content margin, a 48px column gap, then the question list: a `SectionHeading` naming the current topic ("All questions" or the topic name; the page header title always stays the product name) with `SortSelect` on the right — the page-header search is the only search on the page — followed by the questions and support callout filling the remaining width to the right margin. Question rows are ~64px (`py: 1.25`).
 - **Question pages**: the same centred `PageHeader` as other pages (category breadcrumbs, product name as H1, search). Above the question, "Back to all questions" returns to that product. The question is the article title (24→28px), with views, date and likes under it, then the answer at reading width. "Was this helpful?" is a bordered bar under the answer, then related questions.
 - **List state in the URL** (`useUrlParams`): filter, sort, facet, page — Back restores lists.
 - **Return context**: list rows pass `linkState` so Back from the browser restores the list.
