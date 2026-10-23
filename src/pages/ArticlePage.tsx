@@ -19,7 +19,7 @@ import { RelatedQuestions } from '../components/faq/RelatedQuestions';
 import { ArticleFeedback } from '../components/feedback/ArticleFeedback';
 import { Breadcrumbs } from '../components/layout/Breadcrumbs';
 import { usePageMeta } from '../hooks/usePageMeta';
-import { categoryPath, faqPath, getCategoryTrail, getFaqBySlug, loadArticleBody } from '../lib/content';
+import { categoryPath, faqPath, getCategoryTrail, getFaqBySlug, loadArticleBody, siteConfig } from '../lib/content';
 import { formatDate, formatNumber, pluralize } from '../lib/format';
 import { font, fontSize, layout, letterSpacing, lineHeight } from '../theme/tokens';
 import type { Block } from '../types/faq';
@@ -69,6 +69,7 @@ export function ArticlePage() {
 
   if (!faq) return <NotFoundPage kind="article" slug={slug} />;
 
+  const relatedAside = siteConfig.article.relatedSidebarSlugs.includes(faq.slug);
   const trail = getCategoryTrail(faq.categoryId);
   const product = trail[0];
   const updated = formatDate(faq.updatedAt);
@@ -87,52 +88,88 @@ export function ArticlePage() {
         breadcrumbs={<Breadcrumbs items={trail.map((c) => ({ label: c.name, to: categoryPath(c) }))} />}
       />
 
-      <Box component="article" aria-labelledby="article-title" sx={{ maxWidth: layout.readingMaxWidth, mx: 'auto' }}>
-        <Button variant="text" size="small" startIcon={<ArrowBackRounded />} href={back.href} sx={{ ml: -1, mb: 2.5 }}>
-          {back.label}
-        </Button>
-        <Typography
-          id="article-title"
-          component="h2"
-          sx={{
-            fontSize: { xs: fontSize['2xl'], md: fontSize['3xl'] },
-            fontWeight: font.weightSemibold,
-            lineHeight: lineHeight.snug,
-            letterSpacing: letterSpacing.tight,
-            overflowWrap: 'anywhere',
-          }}
-        >
-          {faq.title}
-        </Typography>
-        <Box sx={{ display: 'flex', flexWrap: 'wrap', columnGap: 2.5, rowGap: 1, mt: 2 }}>
-          {faq.views != null && <MetaItem icon={<VisibilityOutlined />}>{formatNumber(faq.views)} views</MetaItem>}
-          {updated && (
-            <MetaItem icon={<UpdateRounded />}>
-              <time dateTime={faq.updatedAt ?? undefined}>{updated}</time>
-            </MetaItem>
-          )}
-          <MetaItem icon={<ThumbUpOutlined />}>{pluralize(faq.helpful.yes, 'like')}</MetaItem>
+      {/* Two-column variant (configured per question): answer at reading width, related questions in a sticky right column.
+          Below md the column stacks under the answer. */}
+      <Box
+        sx={
+          relatedAside
+            ? {
+                display: 'grid',
+                gridTemplateColumns: { xs: 'minmax(0, 1fr)', md: `minmax(0, ${layout.readingMaxWidth}px) ${layout.asideWidth}px` },
+                justifyContent: 'center',
+                columnGap: { md: 6, lg: 8 },
+                rowGap: 6,
+              }
+            : undefined
+        }
+      >
+        <Box component="article" aria-labelledby="article-title" sx={{ maxWidth: layout.readingMaxWidth, mx: 'auto', minWidth: 0, width: relatedAside ? 1 : undefined }}>
+          <Button variant="text" size="small" startIcon={<ArrowBackRounded />} href={back.href} sx={{ ml: -1, mb: 2.5 }}>
+            {back.label}
+          </Button>
+          <Typography
+            id="article-title"
+            component="h2"
+            sx={{
+              fontSize: { xs: fontSize['2xl'], md: fontSize['3xl'] },
+              fontWeight: font.weightSemibold,
+              lineHeight: lineHeight.snug,
+              letterSpacing: letterSpacing.tight,
+              overflowWrap: 'anywhere',
+            }}
+          >
+            {faq.title}
+          </Typography>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', columnGap: 2.5, rowGap: 1, mt: 2 }}>
+            {faq.views != null && <MetaItem icon={<VisibilityOutlined />}>{formatNumber(faq.views)} views</MetaItem>}
+            {updated && (
+              <MetaItem icon={<UpdateRounded />}>
+                <time dateTime={faq.updatedAt ?? undefined}>{updated}</time>
+              </MetaItem>
+            )}
+            <MetaItem icon={<ThumbUpOutlined />}>{pluralize(faq.helpful.yes, 'like')}</MetaItem>
+          </Box>
+
+          <Divider sx={{ my: 3 }} />
+
+          {body.status === 'loading' && <LoadingState label="Loading answer" />}
+          {body.status === 'error' && <ErrorState title="The answer could not be loaded" message="Check your connection and try again." onRetry={retry} />}
+          {body.status === 'ready' &&
+            (body.blocks.length ? (
+              <ArticleContent blocks={body.blocks} />
+            ) : (
+              <ErrorState title="This answer has no content yet" message="Contact support and we will help you directly." />
+            ))}
+
+          <Box sx={{ mt: { xs: 4, md: 5 } }}>
+            <ArticleFeedback key={faq.id} faq={faq} />
+          </Box>
         </Box>
 
-        <Divider sx={{ my: 3 }} />
+        {relatedAside && (
+          <Box
+            sx={{
+              alignSelf: 'start',
+              position: { md: 'sticky' },
+              top: { md: `calc(${layout.headerHeight}px + var(--sticky-search, 0px) + 24px)` },
+              // Never taller than the space below the sticky bars, so every item stays reachable on short screens
+              maxHeight: { md: `calc(100vh - ${layout.headerHeight}px - var(--sticky-search, 0px) - 48px)` },
+              overflowY: { md: 'auto' },
+              // Room for the row hover background (rows bleed 12px left) and focus ring inside the scroll box
+              mx: { md: -1.5 },
+              px: { md: 1.5 },
+            }}
+          >
+            <RelatedQuestions faq={faq} variant="sidebar" />
+          </Box>
+        )}
+      </Box>
 
-        {body.status === 'loading' && <LoadingState label="Loading answer" />}
-        {body.status === 'error' && <ErrorState title="The answer could not be loaded" message="Check your connection and try again." onRetry={retry} />}
-        {body.status === 'ready' &&
-          (body.blocks.length ? (
-            <ArticleContent blocks={body.blocks} />
-          ) : (
-            <ErrorState title="This answer has no content yet" message="Contact support and we will help you directly." />
-          ))}
-
-        <Box sx={{ mt: { xs: 4, md: 5 } }}>
-          <ArticleFeedback key={faq.id} faq={faq} />
+      {!relatedAside && (
+        <Box sx={{ maxWidth: layout.readingMaxWidth, mx: 'auto', mt: { xs: 6, md: 8 } }}>
+          <RelatedQuestions faq={faq} />
         </Box>
-      </Box>
-
-      <Box sx={{ maxWidth: layout.readingMaxWidth, mx: 'auto', mt: { xs: 6, md: 8 } }}>
-        <RelatedQuestions faq={faq} />
-      </Box>
+      )}
     </PageContainer>
   );
 }

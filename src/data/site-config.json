@@ -27,5 +27,6 @@
     ]
   },
   "feedback": { "endpoint": null },
-  "listing": { "pageSize": 20 }
+  "listing": { "pageSize": 20 },
+  "article": { "relatedSidebarSlugs": ["how-can-i-renew-miniorange-plugin-license"] }
 }

@@ -108,5 +108,9 @@ export interface SiteConfig {
     /** POST endpoint for article feedback. null = recorded in this browser only. */
     endpoint: string | null;
   };
+  article: {
+    /** Questions whose page shows related questions in a right-hand sidebar instead of below the answer. */
+    relatedSidebarSlugs: string[];
+  };
   listing: { pageSize: number };
 }

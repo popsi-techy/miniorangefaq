@@ -102,7 +102,7 @@ Spacing rhythm (8px grid): section → section 96px (homepage), heading → cont
 - **Spacing**: MUI 8px scale (`0.5` = 4px). Sections 56–80px apart; rows 10px vertical padding.
 - **Radius**: `sm` 4 (inline code, highlight), `md` 6 (buttons, inputs, rows), `lg` 8 (cards, popovers, images), `pill` 999.
 - **Icon size**: xs 14 (meta), sm 16 (buttons, inputs, rows), md 18 (header), lg 20, xl 32 (empty states), product 40 (featured product marks).
-- **Layout**: page 1120px, reading 680px, sidebar 232px, header 56px.
+- **Layout**: page 1120px, reading 680px, sidebar 232px, article aside 288px (`asideWidth`), header 56px.
 - **Controls**: 36px (pointer), 44px under `(pointer: coarse)`, hero search 48px.
 - **Motion**: 120ms `cubic-bezier(0.2,0,0,1)`, disabled under reduced motion.
 
@@ -140,6 +140,7 @@ Spacing rhythm (8px grid): section → section 96px (homepage), heading → cont
 
 - **Sidebar navigation** (category pages, md+): "All questions" plus any product topics. A product with no topics still shows "All questions". Sits at the page container's left margin and is sticky (no divider line); active item = grey background + orange bar; simple "Topics" heading (h3 style, normal text colour). The page header is `flush` here. Mobile shows the same as a scrolling pill row.
 - **Category page layout**: the body uses the full page container width — topics rail (232px) at the left content margin, a 48px column gap, then the question list: a `SectionHeading` naming the current topic ("All questions" or the topic name; the page header title always stays the product name) with `SortSelect` on the right — the page-header search is the only search on the page — followed by the questions and support callout filling the remaining width to the right margin. Question rows are ~64px (`py: 1.25`).
+- **Article with related sidebar** (trial, per question): slugs listed in `site-config.json › article.relatedSidebarSlugs` show the answer at reading width (680px) with `RelatedQuestions variant="sidebar"` in a 288px sticky right column (48–64px gap; compact `QuestionRow size="compact"`, `SectionHeading size="small"`). The column is capped to the viewport height and scrolls on its own if needed; below md it stacks under the answer. All other questions keep related questions below the answer.
 - **Question pages**: the same centred `PageHeader` as other pages (category breadcrumbs, product name as H1, search). Above the question, "Back to all questions" returns to that product. The question is the article title (24→28px), with views, date and likes under it, then the answer at reading width. "Was this helpful?" is a bordered bar under the answer, then related questions.
 - **List state in the URL** (`useUrlParams`): filter, sort, facet, page — Back restores lists.
 - **Return context**: list rows pass `linkState` so Back from the browser restores the list.

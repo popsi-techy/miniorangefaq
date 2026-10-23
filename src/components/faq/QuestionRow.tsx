@@ -28,13 +28,15 @@ interface QuestionRowProps {
   terms?: string[];
   linkState?: ArticleLinkState;
   headingComponent?: 'h2' | 'h3' | 'h4' | 'span';
+  /** "compact": smaller title and tighter rows, for sidebars. */
+  size?: 'default' | 'compact';
 }
 
 /**
  * One question in a list: title (+ optional category) on the left, date / views on the right.
  * The whole row is one link (one tab stop). Use inside <QuestionList>.
  */
-export function QuestionRow({ faq, showCategory = false, showDate = false, showViews = false, terms = [], linkState, headingComponent = 'h3' }: QuestionRowProps) {
+export function QuestionRow({ faq, showCategory = false, showDate = false, showViews = false, terms = [], linkState, headingComponent = 'h3', size = 'default' }: QuestionRowProps) {
   const trail = showCategory ? getCategoryTrail(faq.categoryId) : [];
   const date = showDate ? formatDate(faq.updatedAt) : null;
   const views = showViews && faq.views != null ? formatNumber(faq.views) : null;
@@ -48,7 +50,7 @@ export function QuestionRow({ faq, showCategory = false, showDate = false, showV
         display: 'flex',
         alignItems: 'flex-start',
         gap: 2,
-        py: 1.25,
+        py: size === 'compact' ? 1 : 1.25,
         px: 1.5,
         mx: -1.5,
         color: cssVar.text,
@@ -61,7 +63,7 @@ export function QuestionRow({ faq, showCategory = false, showDate = false, showV
       }}
     >
       <Box sx={{ flex: 1, minWidth: 0 }}>
-        <Typography component={headingComponent} variant="h5" sx={{ overflowWrap: 'anywhere' }}>
+        <Typography component={headingComponent} variant={size === 'compact' ? 'body1' : 'h5'} sx={{ overflowWrap: 'anywhere' }}>
           <HighlightedText text={faq.title} terms={terms} />
         </Typography>
         {trail.length > 0 && (

@@ -215,6 +215,8 @@ export const layout = {
   /** Reading width for article bodies (~70 characters at 15px). */
   readingMaxWidth: 680,
   sidebarWidth: 232,
+  /** Right-hand column beside an article (related questions); wider than the nav sidebar for two-line titles. */
+  asideWidth: 288,
   headerHeight: 56,
   /** Default control height on pointer devices. */
   controlHeight: 36,
